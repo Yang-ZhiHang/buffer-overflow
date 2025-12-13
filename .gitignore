@@ -1,0 +1,5 @@
+src/stack
+src/stack_gdb
+src/badfile
+
+tmp/
