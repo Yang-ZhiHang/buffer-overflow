@@ -1,5 +1,2 @@
-src/stack
-src/stack_gdb
-src/badfile
-
+src/output/
 tmp/

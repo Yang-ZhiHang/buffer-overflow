@@ -13,4 +13,4 @@
     - rbp/ebp 到 buffer 起始地址的偏移量: 112
     - shellcode 的存放地址: &str
 
-3. 生成 badfile，运行 stack
+3. 生成 badfile，运行 stack，执行 id whoami

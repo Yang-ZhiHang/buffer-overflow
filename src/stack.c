@@ -13,7 +13,7 @@ int foo(char *str)  {
 int main()  {  
     char str[400];  
     FILE *badfile; 
-    badfile = fopen("/home/zamyang/program/computer_security/src/badfile", "r");  
+    badfile = fopen("/home/zamyang/program/computer_security/src/output/badfile", "r");  
     fread(str, sizeof(char), 320, badfile); 
     foo(str);  
     printf("Returned Properly\n");  
