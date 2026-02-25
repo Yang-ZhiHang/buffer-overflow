@@ -8,7 +8,7 @@
     sudo sysctl -w kernel.randomize_va_space=0
     ```
 
-2. 使用 stack_gdb 进行调试，获取必要信息
+2. 使用 stack_gdb 进行调试，获取必要信息（记得不要用fish）
 
     - rbp/ebp 到 buffer 起始地址的偏移量: 112
     - shellcode 的存放地址: &str
